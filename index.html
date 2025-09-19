@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DeviceSentinel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link href="docs/styles/global.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+                <img src="/docs/assets/images/logo.png" alt="DeviceSentinel logo" height="60">
+                <span class="fw-semibold brand-text">DeviceSentinel</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars fa-lg"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+                <ul class="navbar-nav align-items-lg-center gap-lg-3">
+                    <li class="nav-item"><a class="nav-link active" href="/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/privacy-policy.html">Privacy Policy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/term.html">Terms of Use</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- this is the hero section -->
+    <section class="hero-grid d-flex py-5 align-items-center">
+        <span class="glow g-top" aria-hidden="true"></span>
+        <span class="glow g-bottom" aria-hidden="true"></span>
+
+        <div class="container">
+            <div class="row align-items-center justify-content-between g-5">
+
+                <div class="col-12 col-lg-6">
+                    <div class="content mx-auto text-center text-lg-start">
+                        <span class="eyebrow-hero">Secure • Simple • Smart</span>
+                        <h1 class="hero-heading">
+                            Protect Your Device with <span class="brand-accent">DeviceSentinel</span>
+                        </h1>
+                        <p class="hero-sub">
+                            Sentinel your mobile, safeguard your data.
+                        </p>
+
+                        <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 mt-3">
+                            <a href="#" class="cta cta-primary">
+                                <i class="fa-brands fa-android me-2"></i>Get the App
+                            </a>
+                            <a href="#" class="cta cta-outline">
+                                Learn More <i class="fa-solid fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+
+                        <div class="card border-0 mt-4 points-card">
+                            <ul class="list-group list-group-flush points">
+                                <!-- Motion -->
+                                <li class="list-group-item d-flex align-items-start gap-3">
+                                    <span class="icon-wrap bg-soft-teal">
+                                        <i class="fa-regular fa-bell"></i>
+                                    </span>
+                                    <div class="flex-grow-1">
+                                        <h6 class="mb-1 fw-semibold">Motion Alarm</h6>
+                                        <p class="mb-0 text-secondary small">Alerts when your device is moved.</p>
+                                    </div>
+                                </li>
+
+                                <!-- Power -->
+                                <li class="list-group-item d-flex align-items-start gap-3">
+                                    <span class="icon-wrap bg-soft-amber">
+                                        <i class="fa-solid fa-plug-circle-exclamation"></i>
+                                    </span>
+                                    <div class="flex-grow-1">
+                                        <h6 class="mb-1 fw-semibold">Power Alarm</h6>
+                                        <p class="mb-0 text-secondary small">Notifies if the phone is unplugged or
+                                            powered off.</p>
+                                    </div>
+                                </li>
+
+                                <!-- Proximity -->
+                                <li class="list-group-item d-flex align-items-start gap-3">
+                                    <span class="icon-wrap bg-soft-blue">
+                                        <i class="fa-solid fa-wifi"></i>
+                                    </span>
+                                    <div class="flex-grow-1">
+                                        <h6 class="mb-1 fw-semibold">Proximity Guard</h6>
+                                        <p class="mb-0 text-secondary small">Alarm beyond a defined safe radius.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center align-items-center col-lg-6">
+                    <img src="/docs/assets/images/mobile.png" alt="Mobile device" class="img-fluid w-100">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- second -->
+    <section class="section-one" id="overview">
+        <div class="wrap">
+
+            <div class="col col-media">
+                <div class="screens">
+                    <img src="/docs/assets/images/mobile2.png" alt="DeviceSentinel home" class="w-100" loading="lazy">
+                </div>
+            </div>
+            <div class="col col-text">
+                <span class="eyebrow">Why DeviceSentinel</span>
+                <h2 class="title">Keep your phone safe and your data safer</h2>
+                <p class="sub">Quick, reliable, and built to protect in real time.</p>
+
+                <ul class="bullets">
+                    <li><i class="fa-solid fa-bolt"></i><span>Instant motion and unplug alerts</span></li>
+                    <li><i class="fa-solid fa-shield-halved"></i><span>Anti-theft siren with quick arm</span></li>
+                    <li><i class="fa-solid fa-location-crosshairs"></i><span>Proximity radius control</span></li>
+                </ul>
+
+                <a class="btn-app" href="" aria-label="Get it on Google Play">
+                    <i class="fa-brands fa-google-play"></i>
+                    <span>Get it on Google Play</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- this is the number: 2711 -->
+    <section class="section-two py-5" id="features">
+        <div class="container py-md-5">
+            <div class="text-center mb-4">
+                <span class="badge badge-theme rounded-pill px-3 py-2">Highlights</span>
+                <h2 class="mt-3 mb-1 fw-bold text-wrap">See how DeviceSentinel protects in real time</h2>
+                <p class="lead mb-0">Switch tabs to preview key protections.</p>
+            </div>
+
+            <ul class="nav nav-pills justify-content-center gap-2" id="featureTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-pill active" id="tab-motion" data-bs-toggle="pill"
+                        data-bs-target="#pane-motion" type="button" role="tab" aria-controls="pane-motion"
+                        aria-selected="true">
+                        <i class="fa-solid fa-bell-shake me-2"></i>Motion Alarm
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-pill" id="tab-power" data-bs-toggle="pill"
+                        data-bs-target="#pane-power" type="button" role="tab" aria-controls="pane-power"
+                        aria-selected="false">
+                        <i class="fa-solid fa-plug-circle-exclamation me-2"></i>Power Alarm
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-pill" id="tab-proximity" data-bs-toggle="pill"
+                        data-bs-target="#pane-proximity" type="button" role="tab" aria-controls="pane-proximity"
+                        aria-selected="false">
+                        <i class="fa-solid fa-wifi me-2"></i>Proximity Alarm
+                    </button>
+                </li>
+            </ul>
+
+            <div class="tab-content mt-4">
+                <div class="tab-pane fade show active" id="pane-motion" role="tabpanel" aria-labelledby="tab-motion">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-9">
+                            <div class="ratio ratio-9x16 rounded-4 shadow overflow-hidden bg-body">
+                                <img src="/docs/assets/images/2_motion.png" alt="Motion alarm preview"
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-3 mt-3 mt-lg-4">
+                        <div class="col">
+                            <div class="card h-100 shadow-sm border-0 card-feature">
+                                <div class="card-body d-flex gap-3">
+                                    <i class="fa-solid fa-bolt fs-5 icon-theme mt-1"></i>
+                                    <div>
+                                        <h6 class="fw-semibold mb-1">Instant Trigger</h6>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Detects
+                                                    movement immediately</span></li>
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Low
+                                                    false alarm tuning</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow-sm border-0 card-feature">
+                                <div class="card-body d-flex gap-3">
+                                    <i class="fa-solid fa-shield-halved fs-5 icon-theme mt-1"></i>
+                                    <div>
+                                        <h6 class="fw-semibold mb-1">Audible Siren</h6>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Loud
+                                                    deterrent tone</span></li>
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Quick
+                                                    arm/disarm</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow-sm border-0 card-feature">
+                                <div class="card-body d-flex gap-3">
+                                    <i class="fa-solid fa-lock fs-5 icon-theme mt-1"></i>
+                                    <div>
+                                        <h6 class="fw-semibold mb-1">Tamper Safe</h6>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Arm
+                                                    with one tap</span></li>
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Works
+                                                    while screen off</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pane-power" role="tabpanel" aria-labelledby="tab-power">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-9">
+                            <div class="ratio ratio-9x16 rounded-4 shadow overflow-hidden bg-body">
+                                <img src="assets/screen-power.png" alt="Power alarm preview"
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-3 mt-3 mt-lg-4">
+                        <div class="col">
+                            <div class="card h-100 shadow-sm border-0 card-feature">
+                                <div class="card-body d-flex gap-3">
+                                    <i class="fa-solid fa-plug fs-5 icon-theme mt-1"></i>
+                                    <div>
+                                        <h6 class="fw-semibold mb-1">Unplug Alerts</h6>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Warns
+                                                    on cable removal</span></li>
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Charger
+                                                    change detection</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow-sm border-0 card-feature">
+                                <div class="card-body d-flex gap-3">
+                                    <i class="fa-solid fa-battery-full fs-5 icon-theme mt-1"></i>
+                                    <div>
+                                        <h6 class="fw-semibold mb-1">Smart Battery</h6>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li class="d-flex gap-2"><i
+                                                    class="fa-solid fa-check mt-1"></i><span>Threshold
+                                                    notifications</span></li>
+                                            <li class="d-flex gap-2"><i
+                                                    class="fa-solid fa-check mt-1"></i><span>Background friendly</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow-sm border-0 card-feature">
+                                <div class="card-body d-flex gap-3">
+                                    <i class="fa-solid fa-screwdriver-wrench fs-5 icon-theme mt-1"></i>
+                                    <div>
+                                        <h6 class="fw-semibold mb-1">Anti-Tamper</h6>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Detects
+                                                    forced power-off</span></li>
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Auto
+                                                    re-arm option</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pane-proximity" role="tabpanel" aria-labelledby="tab-proximity">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-9">
+                            <div class="ratio ratio-9x16 rounded-4 shadow overflow-hidden bg-body">
+                                <img src="assets/screen-proximity.png" alt="Proximity alarm preview"
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-3 mt-3 mt-lg-4">
+                        <div class="col">
+                            <div class="card h-100 shadow-sm border-0 card-feature">
+                                <div class="card-body d-flex gap-3">
+                                    <i class="fa-solid fa-radar fs-5 icon-theme mt-1"></i>
+                                    <div>
+                                        <h6 class="fw-semibold mb-1">Distance Guard</h6>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Custom
+                                                    safe radius</span></li>
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Live
+                                                    status indicator</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow-sm border-0 card-feature">
+                                <div class="card-body d-flex gap-3">
+                                    <i class="fa-solid fa-mobile-screen fs-5 icon-theme mt-1"></i>
+                                    <div>
+                                        <h6 class="fw-semibold mb-1">Background Safe</h6>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Runs
+                                                    while locked</span></li>
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Low
+                                                    power impact</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow-sm border-0 card-feature">
+                                <div class="card-body d-flex gap-3">
+                                    <i class="fa-solid fa-sliders fs-5 icon-theme mt-1"></i>
+                                    <div>
+                                        <h6 class="fw-semibold mb-1">Fine Controls</h6>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li class="d-flex gap-2"><i
+                                                    class="fa-solid fa-check mt-1"></i><span>Sensitivity presets</span>
+                                            </li>
+                                            <li class="d-flex gap-2"><i class="fa-solid fa-check mt-1"></i><span>Quick
+                                                    toggle widget</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- this is the number: 2711 -->
+    <section class="section-three py-5 border-bottom" id="benefits">
+        <div class="container py-md-5">
+            <div class="text-center mb-4">
+                <span class="badge badge-theme rounded-pill px-3 py-2">Why it stands out</span>
+                <h2 class="mt-3 mb-0 fw-bold fs-1">Security that looks good and works smarter</h2>
+            </div>
+
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-6">
+                    <div class="row g-3 collage">
+                        <img src="/docs/assets/images/mobile3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <ul class="list-group list-group-flush shadow-sm rounded-4 overflow-hidden">
+                        <li class="list-group-item py-3">
+                            <div class="d-flex gap-3">
+                                <span class="icon-ring mt-1"><i class="fa-solid fa-shield-halved"></i></span>
+                                <div>
+                                    <h6 class="fw-semibold mb-1">Real-time protection</h6>
+                                    <p class="mb-0 small">Instant alarms for motion, power changes, and distance
+                                        breaches.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item py-3">
+                            <div class="d-flex gap-3">
+                                <span class="icon-ring mt-1"><i class="fa-solid fa-bolt"></i></span>
+                                <div>
+                                    <h6 class="fw-semibold mb-1">One-tap arming</h6>
+                                    <p class="mb-0 small">Arm/disarm quickly with a clean, accessible control layout.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item py-3">
+                            <div class="d-flex gap-3">
+                                <span class="icon-ring mt-1"><i class="fa-solid fa-battery-half"></i></span>
+                                <div>
+                                    <h6 class="fw-semibold mb-1">Battery smart</h6>
+                                    <p class="mb-0 small">Lightweight background behavior designed for all-day use.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item py-3">
+                            <div class="d-flex gap-3">
+                                <span class="icon-ring mt-1"><i class="fa-solid fa-sliders"></i></span>
+                                <div>
+                                    <h6 class="fw-semibold mb-1">Fine-tuned controls</h6>
+                                    <p class="mb-0 small">Set sensitivity, proximity radius, and alert modes in seconds.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex flex-wrap gap-2 mt-3">
+                        <span class="chip">Privacy-first</span>
+                        <span class="chip">No signup required</span>
+                        <span class="chip">Works offline</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Slider -->
+    <section class="screens-carousel py-5 " id="screenshots">
+        <div class="container py-md-5">
+            <div class="text-center mb-4">
+                <span class="badge badge-theme rounded-pill px-3 py-2">App Screenshots</span>
+                <h2 class="mt-3 mb-0 fw-bold">A quick tour of DeviceSentinel</h2>
+            </div>
+
+            <div id="appScreens" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="true"
+                data-bs-interval="4200">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#appScreens" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#appScreens" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#appScreens" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#appScreens" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#appScreens" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+
+                <div class="carousel-inner rounded-4 overflow-hidden">
+                    <!-- Each slide starts with ONE item; JS below clones the next items so you see 5 on desktop, 1 on mobile -->
+                    <div class="carousel-item active">
+                        <div class="col-slide">
+                            <div class="shot ratio ratio-9x16 bg-body">
+                                <img src="/docs/assets/images/1_home.png" class="d-block w-100 h-100 object-fit-cover"
+                                    alt="Home dashboard" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="col-slide">
+                            <div class="shot ratio ratio-9x16 bg-body">
+                                <img src="/docs/assets/images/2_arming.png" class="d-block w-100 h-100 object-fit-cover"
+                                    alt="Motion alarm screen" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="col-slide">
+                            <div class="shot ratio ratio-9x16 bg-body">
+                                <img src="/docs/assets/images/3_armed.png" class="d-block w-100 h-100 object-fit-cover"
+                                    alt="Power alarm screen" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="col-slide">
+                            <div class="shot ratio ratio-9x16 bg-body">
+                                <img src="/docs/assets/images/4_tripped.png"
+                                    class="d-block w-100 h-100 object-fit-cover" alt="Proximity settings"
+                                    loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="col-slide">
+                            <div class="shot ratio ratio-9x16 bg-body">
+                                <img src="/docs/assets/images/5_activated.png"
+                                    class="d-block w-100 h-100 object-fit-cover" alt="History and logs" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#appScreens" data-bs-slide="prev"
+                    aria-label="Previous">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span><span
+                        class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#appScreens" data-bs-slide="next"
+                    aria-label="Next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span><span
+                        class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer id="site-footer" class="pt-5 pb-4 position-relative overflow-hidden">
+        <div class="container">
+            <div class="row g-4 align-items-start">
+                <!-- Left: Logo + paragraph -->
+                <div class="col-12 col-lg-6">
+                    <div class="brand mb-2">
+                        <img src="/docs/assets/images/logo.png" height="90" alt="DeviceSentinel logo">
+                        <h5 class="mb-0">DeviceSentinel</h5>
+                    </div>
+                    <p class="text-muted mb-0">
+                        Keep your phone safe with real-time motion, power, and proximity alerts—so your data stays
+                        protected anywhere.
+                    </p>
+                </div>
+
+                <!-- Right: Links -->
+                <div class="col-12 col-lg-6">
+                    <div class="row footer-links">
+                        <nav class="col-6 col-md-4">
+                            <div class="title">Product</div>
+                            <ul class="list-unstyled">
+                                <li><a href="#features">Features</a></li>
+                                <li><a href="#screenshots">Screenshots</a></li>
+                                <li><a href="#pricing">Pricing</a></li>
+                                <li><a href="#download">Download</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="col-6 col-md-4">
+                            <div class="title">Company</div>
+                            <ul class="list-unstyled">
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#careers">Careers</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="col-12 col-md-4 mt-3 mt-md-0">
+                            <div class="title">Legal</div>
+                            <ul class="list-unstyled">
+                                <li><a href="/privacy-policy.html">Privacy</a></li>
+                                <li><a href="/term.html">Terms</a></li>
+                                <li><a href="#cookies">Cookies</a></li>
+                                <li><a href="#support">Support</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright row -->
+            <div class="bottom-bar mt-4 pt-3">
+                <div
+                    class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-2">
+                    <small class="text-muted">© 2025 DeviceSentinel. All rights reserved.</small>
+                    <div class="d-flex gap-3">
+                        <a class="text-muted" href="/privacy-policy.html">Privacy</a>
+                        <a class="text-muted" href="/term.html">Terms</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="/docs/javascript/global.js"></script>
+</body>
+
+</html>
