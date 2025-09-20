@@ -9,7 +9,21 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
     <link href="docs/styles/global.css" rel="stylesheet">
+
+    <!-- google icons -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400" rel="stylesheet">
+
 </head>
+
+<style>
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        font-size: 1.25rem;
+        /* adjust size as needed */
+        line-height: 1;
+    }
+</style>
 
 <body>
 
@@ -34,7 +48,7 @@
     </nav>
 
     <!-- this is the hero section -->
-    <section class="hero-grid d-flex py-5 align-items-center">
+    <section class="hero-grid d-flex py-5 align-items-center" id="download">
         <span class="glow g-top" aria-hidden="true"></span>
         <span class="glow g-bottom" aria-hidden="true"></span>
 
@@ -51,11 +65,12 @@
                             Sentinel your mobile, safeguard your data.
                         </p>
 
-                        <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 mt-3">
+                        <div
+                            class="d-flex flex-wrap justify-content-center px-5 px-md-0 justify-content-lg-start gap-3 mt-3">
                             <a href="#" class="cta cta-primary">
                                 <i class="fa-brands fa-android me-2"></i>Get the App
                             </a>
-                            <a href="#" class="cta cta-outline">
+                            <a href="#features" class="cta cta-outline">
                                 Learn More <i class="fa-solid fa-arrow-right ms-2"></i>
                             </a>
                         </div>
@@ -65,7 +80,7 @@
                                 <!-- Motion -->
                                 <li class="list-group-item d-flex align-items-start gap-3">
                                     <span class="icon-wrap bg-soft-teal">
-                                        <i class="fa-regular fa-bell"></i>
+                                        <span class="material-symbols-outlined">mobile_sensor_hi</span>
                                     </span>
                                     <div class="flex-grow-1">
                                         <h6 class="mb-1 fw-semibold">Motion Alarm</h6>
@@ -88,7 +103,7 @@
                                 <!-- Proximity -->
                                 <li class="list-group-item d-flex align-items-start gap-3">
                                     <span class="icon-wrap bg-soft-blue">
-                                        <i class="fa-solid fa-wifi"></i>
+                                        <span class="material-symbols-outlined">motion_sensor_active</span>
                                     </span>
                                     <div class="flex-grow-1">
                                         <h6 class="mb-1 fw-semibold">Proximity Guard</h6>
@@ -150,7 +165,7 @@
                     <button class="nav-link rounded-pill active" id="tab-motion" data-bs-toggle="pill"
                         data-bs-target="#pane-motion" type="button" role="tab" aria-controls="pane-motion"
                         aria-selected="true">
-                        <i class="fa-solid fa-bell-shake me-2"></i>Motion Alarm
+                        <i class="fa-regular fa-bell me-2"></i>Motion Alarm
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
@@ -524,9 +539,9 @@
 
     <footer id="site-footer" class="pt-5 pb-4 position-relative overflow-hidden">
         <div class="container">
-            <div class="row g-4 align-items-start">
+            <div class="row g-5 justify-content-between w-100 align-items-start">
                 <!-- Left: Logo + paragraph -->
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-5">
                     <div class="brand mb-2">
                         <img src="/docs/assets/images/logo.png" height="90" alt="DeviceSentinel logo">
                         <h5 class="mb-0">DeviceSentinel</h5>
@@ -538,33 +553,14 @@
                 </div>
 
                 <!-- Right: Links -->
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-2">
                     <div class="row footer-links">
-                        <nav class="col-6 col-md-4">
+                        <nav class="col-12">
                             <div class="title">Product</div>
                             <ul class="list-unstyled">
                                 <li><a href="#features">Features</a></li>
                                 <li><a href="#screenshots">Screenshots</a></li>
-                                <li><a href="#pricing">Pricing</a></li>
                                 <li><a href="#download">Download</a></li>
-                            </ul>
-                        </nav>
-                        <nav class="col-6 col-md-4">
-                            <div class="title">Company</div>
-                            <ul class="list-unstyled">
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#blog">Blog</a></li>
-                                <li><a href="#careers">Careers</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                            </ul>
-                        </nav>
-                        <nav class="col-12 col-md-4 mt-3 mt-md-0">
-                            <div class="title">Legal</div>
-                            <ul class="list-unstyled">
-                                <li><a href="/privacy-policy.html">Privacy</a></li>
-                                <li><a href="/term.html">Terms</a></li>
-                                <li><a href="#cookies">Cookies</a></li>
-                                <li><a href="#support">Support</a></li>
                             </ul>
                         </nav>
                     </div>
